@@ -62,7 +62,7 @@ tw-passage {padding: 0px;}
 tw-passage {font-family: Futura;}
 tw-story {margin: 0;}
 tw-story {width: 100%;}
-tw-story {padding: 20px; padding-left: 150px;}
+tw-story {padding: 20px; padding-left: 0;}
 tw-story {border: 0;}
 
 h1 {
@@ -76,7 +76,24 @@ font-family: 'Playfair Display', serif;
 tw-sidebar {
   left: 25%;
   z-index: 1000;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Page Load" tags="" position="3400,100" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[=
+}
+
+
+@media screen and (max-width: 600px) {
+  tw-sidebar {
+    left: 2%;
+    z-index: 1000;
+}
+
+tw-align {
+  margin-left: 20px;
+}
+}
+
+
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Page Load" tags="" position="3400,100" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[=
 &lt;h1&gt;I&#39;m Looking To...&lt;/h1&gt;
 
 [[Buy]][[Sell]]
